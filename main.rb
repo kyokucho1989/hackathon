@@ -4,8 +4,6 @@ loop do
   # 学習項目入力
   puts '学習項目を入力'
   learning_detail = gets.chomp
-
-
   
   if learning_detail == "exit"
     puts "終了"
